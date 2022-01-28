@@ -1,5 +1,7 @@
 # file which reclassifies `.hack` files as php:
-*.hack linguist-language=php
+#*.hack linguist-language=php
+
+*.hack linguist-detectable=false
 
 * text=auto
 *.css linguist-vendored
